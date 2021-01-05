@@ -1,0 +1,100 @@
+body{
+    margin: 0%;
+}
+
+p{
+    font-family: 'Source Serif Pro', serif;
+}
+.accordion-body{
+    padding: 0rem;
+}
+
+/*PREMIERE DIV DE MON ARTICLE */
+.produit{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+/* PETITTITRE */
+h3{
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(96, 168, 151); 
+    text-decoration: underline;
+}
+
+/* PERMET DE METTRE UN FOND BLANC APRES LA DIV PRODUIT */
+.article{
+    background-color:white;
+    margin-left: -32px;
+    width: 40em;
+    margin-top: 2em;
+}
+
+/* PADDING DANS ARTICLE1 */
+.article1{
+    padding: 20px;
+}
+
+/* PETITTITRE */
+h3{
+    line-height: 0.6em;
+    margin-bottom: 0.5em
+}
+
+/* PETITTITRE */
+.petittitre5{
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* PETITTITRE */
+.petittitre6{
+    font-size: 3em;
+    font-family: 'Parisienne', cursive; 
+    color:rgb(96, 168, 151); 
+}
+
+/* BUTTON CV */
+
+.button1{
+    margin-top: 3em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.button1 button{
+    padding: 1rem;
+    border-radius:1rem ;
+    background-color: rgb(96, 168, 151);
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.bloc{
+    background-color: white;
+}
+
+.carousel-caption {
+    right: 3%;
+    left: 3%;
+}
+
+h5{
+    font-size: 2em;
+    text-transform: uppercase;
+    color: rgb(96, 168, 151);
+    text-decoration: underline;
+}
+
+.paragraphe{
+    margin: 0 auto;
+    width: 55em;}
+
+/* PARAGAPHE DE LA DIV ARTICLE */
+.article p{
+    text-align: justify;
+}

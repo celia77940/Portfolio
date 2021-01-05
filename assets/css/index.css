@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.display{
+    display: flex;
+}
+
+header{
+    background-image: url(../image/table.jpg);
+    background-size: cover;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.celia{
+    font-size: 4em;
+    text-decoration: underline;
+}
+
+svg{
+    color: white;
+    margin-right: 2em;
+}
+.metier span{
+    font-size: 2em;
+    color: white;
+}
+
+.placement{
+    text-align: center;
+    padding-top: 21em;
+    padding-bottom: 3em;
+}
+
+.border{
+    border-left: 4px solid black; 
+    height: 30px; 
+    display: inline-block;
+}
+
+.button button{
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+    background-color:white ;
+    border: 0.5px solid white; 
+}
+
+aside{
+    text-align: center;
+    padding-top: 2em;
+    padding-right: 2em;
+    background-color: rgb(93, 168, 151);
+}
+
+.aside{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 13em;
+}
+
+.accordion-body{
+    padding: 0rem;
+}
+
+    
