@@ -1,79 +1,214 @@
 body{
-    margin: 0px;
+    margin: 0;
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
+    width: 100%;
 }
 
+/* DISPLAY */
 .display{
     display: flex;
 }
 
+/* DISPLAY1 */
+.display1{
+    display: flex;
+}
+
+/* JUSTIFY CENTER */
+.justifycenter{
+    justify-content: center;
+}
+
+/* HEADER */
+
+/* FOND HEADER */
 header{
-    background-image: url(../image/table.jpg);
-    background-size: cover;
+    background: url(../image/geometrique.jpg); 
+    background-repeat: no-repeat;  
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+    height: 900px;
 }
 
-li{
-    list-style: none;
+/* FOND ACCUEIL */
+.fondheader{
+    background-color: rgba(0, 0, 0, 0.1); 
 }
 
-a{
-    font-family: 'Montserrat', sans-serif;;
-    font-size: 1.5em;
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 400;
-}
-
-.celia{
-    font-size: 4em;
-    text-decoration: underline;
-}
-
-svg{
-    color: white;
-    margin-right: 2em;
-}
-.metier span{
-    font-size: 2em;
-    color: white;
-}
-
-.placement{
-    text-align: center;
-    padding-top: 21em;
-    padding-bottom: 3em;
-}
-
-.border{
-    border-left: 4px solid black; 
+/* BORDURE HEADER */
+.borderleft{
+    border-left: 1px solid white; 
     height: 30px; 
     display: inline-block;
+    margin-top: 0.5em;
 }
 
-.button button{
-    height: 30px;
-    width: 30px;
-    border-radius: 40px;
-    background-color:white ;
+/* A */
+a{
+    font-size: 1.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* LOGO  */
+.logo{
+    margin-right: 1em;
+}
+
+/* TITRE HEADER */
+.titre{
+    text-align: center;
+    padding-top: 16em;
+}
+
+/* H1 */
+h1{
+    font-size: 8em;
+    color:white;
+}
+
+/* TRAIT DOUBLE HEADER */
+.borderbottom{
+    border-bottom: thick double white; 
+    margin: 0 auto;
+    width: 62em;
+}
+
+/* H2 */
+h2{
+    font-size: 3.5em;
+    color: white;
+    padding-top: 0.5em;
+}
+
+/* CLASSE BUTTON */
+.button{
+    padding-top: 5em;
+}
+
+/* BUTTON */
+button{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    background-color:rgb(185, 228, 215) ;
     border: 0.5px solid white; 
 }
 
-aside{
+/* FIN HEADER */
+
+/* PRESENTATION */
+
+/* FOND PRESENTATION */
+.presentation{
+    background-image: url(../image/presentation.jpg);
+    background-repeat: no-repeat;  
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+    height: 900px;
+}
+
+.button1{
     text-align: center;
-    padding-top: 2em;
-    padding-right: 2em;
-    background-color: rgb(93, 168, 151);
+    padding-top: 45em;
 }
 
-.aside{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 13em;
+/* FOND INFOGRAPHISTE */
+.infographiste{
+    background-image: url(../image/infographiste.jpg);
+    background-repeat: no-repeat;  
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+    height: 900px;
 }
 
-.accordion-body{
-    padding: 0rem;
+/* FOND SITE */
+.site{
+    background-image: url(../image/dev.jpg);
+    background-repeat: no-repeat;  
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+    height: 900px;
 }
 
+/* FOND CONTACT */
+.contact{
+    background-image: url(../image/contact.jpg);
+    background-repeat: no-repeat;  
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+    height: 900px;
+}
+
+@media (max-width: 1030px){
+
+    header{
+        height: 200px;
+    }
+
+    .presentation{
+        height: 200px;
+    }
+
+    .infographiste{
+        height: 200px;
+    }
+
+    .site{
+        height: 200px;
+    }
+
+    .contact{
+        height: 200px;
+    }
+    
+    .titre{
+        padding-top: 4em;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    .logo img{
+        height: 1em;
+
+    }
+
+    h2{
+        font-size: 0.8em;
+    }
+
+    /* TRAIT DOUBLE HEADER */
+    .borderbottom{
+        border-bottom: thick double white; 
+        width: 15em;
+    }
+
+    .display{
+        display: block;
+    }
+
+    .button1{
+        padding-top: 8em;
+    }
+
+    /* BUTTON */
+    button{
+        height: 40px;
+        width: 40px;
+        border-radius: 40px;
+        background-color:rgb(185, 228, 215) ;
+        border: 0.5px solid white; 
+    }
+
+    button img{
+        height: 1em;
+    }
+
+
+
+
+}
     

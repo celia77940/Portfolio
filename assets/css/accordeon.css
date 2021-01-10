@@ -1,100 +1,173 @@
-body{
-    margin: 0%;
-}
-
+/* P */
 p{
     font-family: 'Source Serif Pro', serif;
+    text-align: justify;
 }
+
+/* ACCORDEON BODY */
 .accordion-body{
     padding: 0rem;
 }
 
-/*PREMIERE DIV DE MON ARTICLE */
-.produit{
-    display: flex;
-    justify-content: center;
-    padding-top: 2em;
+/* PLACEMENT */
+.placement{
+    margin-top: 4em;
+    margin-bottom: 4em;
 }
 
-/* PETITTITRE */
+/* .PORTRAIT */
+.portrait{
+    margin-right: 2em;
+}
+
+/* BORDURE HEADER */
+.borderleft1{
+    border-left: 1px solid rgb(185, 228, 215); 
+    height: 30em; 
+    display: inline-block;
+    margin-top: 0.5em;
+}
+
+/* .ARTCILE */
+.article{
+    padding-left: 1em;
+    padding-top: 2em
+}
+
+/* H3 */
 h3{
     font-size: 2em;
-    font-family: 'Montserrat', sans-serif;
-    color:rgb(96, 168, 151); 
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(185, 228, 215);
     text-decoration: underline;
 }
 
-/* PERMET DE METTRE UN FOND BLANC APRES LA DIV PRODUIT */
-.article{
-    background-color:white;
-    margin-left: -32px;
-    width: 40em;
-    margin-top: 2em;
+/* PARAGRAPHE1 HEADER */
+.paragraphe1{
+    margin: 0 auto;
+    width: 30em;    
 }
 
-/* PADDING DANS ARTICLE1 */
-.article1{
-    padding: 20px;
-}
-
-/* PETITTITRE */
-h3{
-    line-height: 0.6em;
-    margin-bottom: 0.5em
-}
-
-/* PETITTITRE */
-.petittitre5{
-    font-size: 3em;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-
-}
-
-/* PETITTITRE */
-.petittitre6{
-    font-size: 3em;
-    font-family: 'Parisienne', cursive; 
-    color:rgb(96, 168, 151); 
+/* PARAGRAPHE HEADER P */
+.paragraphe1 p{
+    text-align: left; 
 }
 
 /* BUTTON CV */
-
-.button1{
-    margin-top: 3em;
-    text-align: center;
-    margin-bottom: 2em;
-}
-
-.button1 button{
-    padding: 1rem;
-    border-radius:1rem ;
-    background-color: rgb(96, 168, 151);
-    text-transform: uppercase;
-    font-size: 0.8em;
-}
-
-.bloc{
+.buttoncv button{
+    border-radius: 0px;
     background-color: white;
+    border: 1px solid rgb(185, 228, 215);
+    width: 15em;
+    height: 50px;
 }
 
-.carousel-caption {
-    right: 3%;
-    left: 3%;
+/* CENTRER IMAGE CARROUSEL */
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/* BLOC BLANC CARROUSEL */
+.bloc{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* TITRE CARROUSEL */
 h5{
-    font-size: 2em;
+    font-size: 1.5em;
     text-transform: uppercase;
     color: rgb(96, 168, 151);
     text-decoration: underline;
 }
 
+/* PARAGRAPHE CARROUSEL */
 .paragraphe{
     margin: 0 auto;
-    width: 55em;}
+    width: 40em;}
 
-/* PARAGAPHE DE LA DIV ARTICLE */
-.article p{
-    text-align: justify;
+/* PARAGRAPHE CARROUSEL P */
+.paragraphe p{
+    text-align: center;
+}
+
+/* CENTRE CONTACT */
+.centrercont{
+    text-align: center;
+    padding-top: 1em;
+}
+
+/* CENTRE A */
+.centrercont a {
+    color: black;
+}
+
+/* CENTRE P */
+.centrercont p{
+    text-align: center;
+    font-size: 2em;
+}
+
+@media (max-width: 1030px){
+
+    .placement{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .portrait{
+        margin-right: 0em;
+    }
+
+    /* BORDURE HEADER */
+    .borderleft1{
+        border-top: 1px solid rgb(185, 228, 215); 
+        height: 0em;
+        margin: 0 auto;
+        width: 10em;
+        display: block;
+        margin-top: 0.5em;
+    }
+
+    .portrait img{
+        height: 10em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h3{
+        font-size: 1em;
+        text-align: center;
+    }
+
+    /* .ARTCILE */
+    .article{
+        padding-left: 0em;
+        padding-top: 1em
+    }
+
+    .paragraphe1{
+        width: 15em;
+    }
+
+    .paragraphe1 p {
+        font-size: 0.5em;
+        text-align: center;
+    }
+
+    .buttoncv{
+        text-align: center;
+    }
+
+    /* BUTTON CV */
+    .buttoncv button{
+    width: 15em;
+    height: 30px;
+    font-size: 0.5em;
+    }
+
+
 }
