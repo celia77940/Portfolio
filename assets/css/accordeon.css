@@ -112,11 +112,13 @@ h5{
 
 @media (max-width: 1030px){
 
+    /* PLACEMENT */
     .placement{
         margin-top: 1em;
         margin-bottom: 1em;
     }
 
+    /* PORTRAIT */
     .portrait{
         margin-right: 0em;
     }
@@ -131,6 +133,7 @@ h5{
         margin-top: 0.5em;
     }
 
+    /* PORTRAIT IMG */
     .portrait img{
         height: 10em;
         display: block;
@@ -138,6 +141,7 @@ h5{
         margin-right: auto;
     }
 
+    /* H3 */
     h3{
         font-size: 1em;
         text-align: center;
@@ -149,15 +153,18 @@ h5{
         padding-top: 1em
     }
 
+    /* PARAGRAPHE1 */
     .paragraphe1{
         width: 15em;
     }
 
+    /* PARAGRAPHE1 P */
     .paragraphe1 p {
         font-size: 0.5em;
         text-align: center;
     }
 
+    /* BUTTON CV */
     .buttoncv{
         text-align: center;
     }
@@ -168,6 +175,55 @@ h5{
     height: 30px;
     font-size: 0.5em;
     }
+
+    /* CENTRE P */
+    .centrercont p{
+        font-size: 0.8em;
+    }
+
+    /* CENTRE A */
+    .centrercont a {
+        font-size: 0.8em;
+    }
+
+    .centrercont svg{
+        width: 2em;
+        height: 2em;
+    }
+
+    h5{
+        font-size: 6px;
+    }
+
+    /* PARAGRAPHE CARROUSEL */
+    .paragraphe{
+        width: 12em;}
+
+    /* PARAGRAPHE P */
+    .paragraphe p {
+        font-size: 4px;
+        margin-bottom: 0em;
+    }
+
+    /* PARAGRAPHE A */
+    .paragraphe a {
+        font-size: 4px;
+    }
+
+    /* CARROUSEL CAPTION */
+    .carousel-caption {
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+    }
+
+    /* CAROUSEL INDICATORS */
+    .carousel-indicators {
+        margin-bottom: 0em;
+    }
+
+
+
+
 
 
 }

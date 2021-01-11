@@ -143,39 +143,48 @@ button{
 
 @media (max-width: 1030px){
 
+    /* HEADER */
     header{
         height: 200px;
     }
 
+    /* PRESENTATION */
     .presentation{
         height: 200px;
     }
 
+    /* INFOGRAPHISTE */
     .infographiste{
         height: 200px;
     }
 
+    /* SITE */
     .site{
         height: 200px;
     }
 
+    /* CONTACT */
     .contact{
         height: 200px;
     }
     
+    /* TITRE */
     .titre{
         padding-top: 4em;
     }
 
+    /* H1 */
     h1{
         font-size: 2em;
     }
 
+    /* LOGO IMG */
     .logo img{
         height: 1em;
 
     }
 
+    /* H2 */
     h2{
         font-size: 0.8em;
     }
@@ -186,10 +195,12 @@ button{
         width: 15em;
     }
 
+    /* DISPLAY */
     .display{
         display: block;
     }
 
+    /* BUTTON1 */
     .button1{
         padding-top: 8em;
     }
@@ -203,6 +214,7 @@ button{
         border: 0.5px solid white; 
     }
 
+    /* BUTTON IMG */
     button img{
         height: 1em;
     }
