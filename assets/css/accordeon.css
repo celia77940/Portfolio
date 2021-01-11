@@ -63,6 +63,11 @@ h3{
     height: 50px;
 }
 
+button a{
+    color: black;
+    font-size: 1em;
+}
+
 /* CENTRER IMAGE CARROUSEL */
 .center{
     display: block;
